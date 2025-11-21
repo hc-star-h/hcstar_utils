@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "declaration": true, // 生成类型声明（关键）
+    "declarationDir": "dist", // 类型文件与 JS 产物同目录
+    "rootDir": ".",
+    "baseUrl": "."
+  },
+  "include": ["src"]
+}
