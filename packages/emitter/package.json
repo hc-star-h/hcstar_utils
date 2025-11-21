@@ -1,6 +1,6 @@
 {
   "name": "@hcstar/emitter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "事件触发器",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.cjs.js",
@@ -9,6 +9,8 @@
     "build": "vite build",
     "publish": "npm publish"
   },
+  "repository": "https://github.com/hc-star-h/hcstar_utils",
+  "homepage": "https://github.com/hc-star-h/hcstar_utils/blob/master/packages/emitter/README.md",
   "publishConfig": {
     "access": "public"
   },
